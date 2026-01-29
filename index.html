@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electrotecnia | Ingeniería e Instalaciones Eléctricas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --azul-oscuro: #0a192f;
+            --rojo-fuerza: #c81d25;
+            --gris-industrial: #23272a;
+        }
+        body { font-family: 'Roboto', sans-serif; background-color: #f4f4f4; }
+        h1, h2, h3 { font-family: 'Montserrat', sans-serif; font-weight: 800; text-transform: uppercase; }
+        
+        /* Estilo Rudo Hero */
+        .hero {
+            background: linear-gradient(rgba(10, 25, 47, 0.8), rgba(10, 25, 47, 0.8)), 
+                        url('https://images.unsplash.com/photo-1558402529-d2638a7023e9?auto=format&fit=crop&q=80'); /* Imagen de fondo eléctrica */
+            background-size: cover;
+            color: white;
+            padding: 100px 0;
+            border-bottom: 5px solid var(--rojo-fuerza);
+        }
+
+        .btn-wsp {
+            background-color: #25d366;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 50px;
+            font-weight: bold;
+            text-decoration: none;
+            display: inline-block;
+            transition: 0.3s;
+        }
+        .btn-wsp:hover { background-color: #128c7e; color: white; transform: scale(1.05); }
+
+        .card-producto {
+            background: white;
+            border-left: 5px solid var(--rojo-fuerza);
+            transition: 0.3s;
+            margin-bottom: 20px;
+        }
+        .card-producto:hover { transform: translateY(-10px); box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <span style="color: var(--rojo-fuerza); font-size: 1.5rem;">ELECTRO</span>TECNIA
+            </a>
+        </div>
+    </nav>
+
+    <section class="hero text-center">
+        <div class="container">
+            <h1 class="display-4">La técnica que mueve tus sueños, <br><span style="color: var(--rojo-fuerza);">la ingeniería que los hace seguros.</span></h1>
+            <p class="lead mt-3">Futuros Ingenieros Eléctricos al servicio de Cuenca.</p>
+            <a href="https://wa.me/593XXXXXXXXX" class="btn-wsp mt-4">COTIZAR POR WHATSAPP</a>
+        </div>
+    </section>
+
+    <section class="container my-5">
+        <h2 class="text-center mb-5">Respaldo de Ingeniería</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Seguridad</h3>
+                <p>Cálculos precisos para evitar sobrecargas e incendios.</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Ahorro</h3>
+                <p>Instalaciones optimizadas que reducen tu planilla de luz.</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Garantía</h3>
+                <p>Uso de materiales certificados de las mejores marcas.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Productos Destacados</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card card-producto p-4 text-center">
+                        <h4>Breakers Industriales</h4>
+                        <p>Protección térmica de alta gama.</p>
+                        <a href="https://wa.me/593992491454text=Me%20interesan%20los%20breakers" class="btn btn-dark">Consultar</a>
+                    </div>
+                </div>
+                </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-4">
+        <p>📍 Cuenca, Ecuador | Electrotecnia © 2026</p>
+    </footer>
+
+</body>
+</html>
